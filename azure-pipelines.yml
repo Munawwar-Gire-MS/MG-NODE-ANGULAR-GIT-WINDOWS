@@ -4,7 +4,7 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: 'Munawwar-OSS'
+  azureSubscription: '6eac3020-81ef-4e07-9fff-8571be41a7f7'
 
   # Web app name
   webAppName: 'MG-NODE-ANGULAR-DEVOPS'
