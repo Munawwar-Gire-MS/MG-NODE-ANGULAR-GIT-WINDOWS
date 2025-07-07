@@ -10,7 +10,7 @@ variables:
   webAppName: 'MG-NODE-ANGULAR-DEVOPS'
 
   # Environment name
-  # environmentName: 'sitename'
+   environmentName: 'production'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
@@ -56,7 +56,7 @@ stages:
   jobs:
   - deployment: Deploy
     displayName: Deploy
-    #environment: $(environmentName)
+    environment: $(environmentName)
     pool:
       vmImage: $(vmImageName)
     strategy:
